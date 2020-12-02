@@ -1,0 +1,20 @@
+{% extends 'main/base.html' %}
+{% block title %}
+    {{ title }}
+{% endblock %}
+{% block content %}
+    <h1>Список курсов</h1>
+    <p>Рекомендуемые курсы</p>
+    {% if courses %}
+        {% for el in courses %}
+            <div class="alert alert-warning mt-2">
+                <h3>{{ el.title }}</h3>
+                <p>{{ el.category }}</p>
+                <p>{{ el.description }}</p>
+                <p>{{ el.link }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>Курсы не найдены!</p>
+    {% endif %}
+{% endblock %}
