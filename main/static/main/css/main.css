@@ -1,13 +1,14 @@
 body {
-    background: #eeeeee;
+    background: #222222;
 }
 
 
 aside {
     float: left;
+    position: fixed;
     background: #181818;
     width: 20%;
-    height: 100vh;
+    height: 100%;
     padding: 2%;
     color: #fff;
     border-right: 5px solid #4d4d4d;
@@ -59,4 +60,3 @@ main .features p {max-width: 600px; margin: 20px auto}
     margin: 20px 34%;
     text-align: left;
 }
-

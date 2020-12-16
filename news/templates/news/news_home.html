@@ -6,13 +6,24 @@
         <p>Последние новости</p>
         {% if news %}
         {% for el in news %}
-            <hr>
-            <div class="alert alert-warning">
-                <h3>{{ el.title }}</h3>
-                <p>{{ el.full_text }}</p>
-                <a href="{% url 'news-detail' el.id %}" class="btn btn-warning">Читать дальше</a>
+
+            <div class="row">
+                <div class="col"> </div>
+                <div class="col-10">
+                    <hr>
+                    <div class="shadow mb-5 bg-white rounded">
+                        <div class="card", style="width: 100%">
+                            <div class="card-body">
+                                <h3>{{ el.title }}</h3>
+                                <p>{{ el.full_text }}</p>
+                                <a href="{% url 'news-detail' el.id %}" class="btn btn-secondary btn-sm">Изменить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"> </div>
             </div>
-            <hr>
+
         {% endfor %}
         {% else %}
             <p>У вас нет записей</p>
