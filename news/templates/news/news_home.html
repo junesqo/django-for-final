@@ -2,14 +2,15 @@
 {% block title %}Последние новости{% endblock %}
 {% block content %}
     <div class="features">
-        <h1>Список курсов</h1>
-        <p>Последние новости</p>
+        <h1>Последние новости</h1>
+        <p>Узнайте, о чем пишут в вашем университете</p>
+        <a href="{% url 'add' %}"><button class="btn btn-info">Напишите и вы что-нибудь</button></a>
         {% if news %}
         {% for el in news %}
 
             <div class="row">
                 <div class="col"> </div>
-                <div class="col-10">
+                <div class="col-11">
                     <hr>
                     <div class="shadow mb-5 bg-white rounded">
                         <div class="card", style="width: 100%">
@@ -21,12 +22,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col"> </div>
             </div>
 
         {% endfor %}
         {% else %}
-            <p>У вас нет записей</p>
+            <p>Записей еще нет</p>
+            <h6>Оставьте первую запись ВЫ!</h6>
         {% endif %}
     </div>
 {% endblock %}
