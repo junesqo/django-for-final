@@ -14,3 +14,11 @@ Django site for final project
 <img src="https://user-images.githubusercontent.com/62104475/102539010-497ce400-40d7-11eb-8b19-b2a9f500d6cd.jpg" width="1000" height="650">
 <hr>
 <img src="https://user-images.githubusercontent.com/62104475/102539339-be501e00-40d7-11eb-957a-650a17b31d58.jpg" width="1000" height="650">
+<hr>
+<h3>Adding your own notes</h3>
+<br>
+<p>To add your own note, запись, just click on "Add запись", then write title of your note for easier navigating and write the rest of your text in full text form</p>
+<p>After finishing click "Add"</p>
+<br>
+<img src="https://user-images.githubusercontent.com/62104475/102601930-04929500-414b-11eb-8c91-5e3dbecbbee5.jpg" width="1000" height="650">
+<hr>
