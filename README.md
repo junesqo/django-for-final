@@ -22,3 +22,6 @@ Django site for final project
 <br>
 <img src="https://user-images.githubusercontent.com/62104475/102601930-04929500-414b-11eb-8c91-5e3dbecbbee5.jpg" width="1000" height="650">
 <hr>
+<br>
+<br>
+https://youtu.be/fYdeTG066zQ
